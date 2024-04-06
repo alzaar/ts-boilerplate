@@ -1,0 +1,7 @@
+{
+  "watch": ["src/**/*.ts", "**/*.html", "**/*.css"],
+  "ext": "ts",
+  "execMap": {
+    "js": "tsc <file_path> --outDir ./dist && node <file_path>"
+  }
+}
